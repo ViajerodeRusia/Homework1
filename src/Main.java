@@ -7,10 +7,11 @@ import org.apache.commons.lang3.StringUtils;
 public class Main {
     // BEGIN
     public static void main(String[] args) {
-        var friend = 19;
-        System.out.println("friend = " + friend);
-        System.out.println("friend = "+ friend + " + 2 = " +(friend+2));
-        System.out.println("friend = "+ friend + " / 7 = " +(friend/7));
+        var frog = 3.5f;
+        System.out.println("frog = " + frog);
+        System.out.println("frog = "+ frog + " * 10 = " +Math.round(frog*10));
+        System.out.println("frog = "+ frog + " / 3.5 = " +Math.round(frog/3.5f));
+        System.out.println("frog = "+ frog + " + 4 = " +(frog+4));
     }
 }
 // END
