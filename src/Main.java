@@ -7,11 +7,11 @@ import org.apache.commons.lang3.StringUtils;
 public class Main {
     // BEGIN
     public static void main(String[] args) {
-        var frog = 3.5f;
-        System.out.println("frog = " + frog);
-        System.out.println("frog = "+ frog + " * 10 = " +Math.round(frog*10));
-        System.out.println("frog = "+ frog + " / 3.5 = " +Math.round(frog/3.5f));
-        System.out.println("frog = "+ frog + " + 4 = " +(frog+4));
+        var weightBoxer1 = 78.2f;
+        var weightBoxer2 = 82.7f;
+        System.out.println("Масса бойца №1 = " + weightBoxer1);
+        System.out.println("Масса бойца №2 = " + weightBoxer2);
+        System.out.println("Общая масса двух бойцов = " + (weightBoxer1+weightBoxer2));
     }
 }
 // END
