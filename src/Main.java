@@ -7,13 +7,15 @@ import org.apache.commons.lang3.StringUtils;
 public class Main {
     // BEGIN
     public static void main(String[] args) {
-        var weightBoxer1 = 78.2f;
-        var weightBoxer2 = 82.7f;
-        System.out.println("Масса бойца №1 = " + weightBoxer1);
-        System.out.println("Масса бойца №2 = " + weightBoxer2);
-        System.out.println("Разница масс спортсменов 1 способ = " + (weightBoxer2 - weightBoxer1));
-        System.out.println("Разница масс спортсменов 2 способ = " + (weightBoxer2 % weightBoxer1));
+        var workingHoursTotal = 640;
+        var eachWorkerHours = 8;
+        var numberOfWorkers = workingHoursTotal/eachWorkerHours;
+        System.out.println("Всего часов работы - " + workingHoursTotal + "ч");
+        System.out.println("Каждый работник работает -  " + eachWorkerHours + "ч");
+        System.out.println("Число работникв = " + numberOfWorkers + " человек");
+
     }
+
 }
 // END
 
