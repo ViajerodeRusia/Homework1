@@ -10,9 +10,9 @@ public class Main {
         var dog = 8.0f;
         var cat = 3.6f;
         var paper = 763789;
-        System.out.println("dog = " + dog);
-        System.out.println("cat = " + cat);
-        System.out.println("paper = " + paper);
+        System.out.println("dog = " + dog + " + 4 = " +(dog+4));
+        System.out.println("cat = " + cat + " + 4 = " +(cat+4));
+        System.out.println("paper = " + paper + " + 4 = " +(paper+4));
     }
 }
 // END
