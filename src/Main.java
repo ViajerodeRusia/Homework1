@@ -10,9 +10,9 @@ public class Main {
         var dog = 8.0f;
         var cat = 3.6f;
         var paper = 763789;
-        System.out.println("dog = " + dog + " + 4 = " +(dog+4));
-        System.out.println("cat = " + cat + " + 4 = " +(cat+4));
-        System.out.println("paper = " + paper + " + 4 = " +(paper+4));
+        System.out.println("dog = " + dog + " - 3.5 = " +(dog-3.5f));
+        System.out.println("cat = " + cat + " - 1.6 = " +Math.round(cat-1.6f));
+        System.out.println("paper = " + paper + " - 7639 = " +(paper-7639));
     }
 }
 // END
