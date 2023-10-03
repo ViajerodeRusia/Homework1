@@ -11,7 +11,8 @@ public class Main {
         var weightBoxer2 = 82.7f;
         System.out.println("Масса бойца №1 = " + weightBoxer1);
         System.out.println("Масса бойца №2 = " + weightBoxer2);
-        System.out.println("Общая масса двух бойцов = " + (weightBoxer1+weightBoxer2));
+        System.out.println("Разница масс спортсменов 1 способ = " + (weightBoxer2 - weightBoxer1));
+        System.out.println("Разница масс спортсменов 2 способ = " + (weightBoxer2 % weightBoxer1));
     }
 }
 // END
